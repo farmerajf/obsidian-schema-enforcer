@@ -1,0 +1,9 @@
+{
+	"id": "obsidian-schema-enforcer",
+	"name": "Schema Enforcer",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Enforce frontmatter schemas per folder. Highlights property violations and auto-injects required properties.",
+	"author": "Adam",
+	"isDesktopOnly": false
+}

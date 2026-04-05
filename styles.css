@@ -1,0 +1,24 @@
+/* Fallback styles — dynamic colors are injected via JS */
+.metadata-property.schema-key-violation,
+.metadata-property.schema-key-violation .metadata-property-key,
+.metadata-property.schema-key-violation .metadata-property-key input,
+.metadata-property.schema-key-violation .metadata-property-value,
+.metadata-property.schema-key-violation .metadata-property-value input {
+	color: #e53e3e !important;
+	border-color: #e53e3e !important;
+}
+
+.metadata-property.schema-key-violation {
+	background-color: #e53e3e15 !important;
+}
+
+.metadata-property.schema-value-violation,
+.metadata-property.schema-value-violation .metadata-property-value,
+.metadata-property.schema-value-violation .metadata-property-value input {
+	color: #dd6b20 !important;
+	border-color: #dd6b20 !important;
+}
+
+.metadata-property.schema-value-violation {
+	background-color: #dd6b2015 !important;
+}
