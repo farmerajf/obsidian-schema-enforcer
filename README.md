@@ -33,7 +33,7 @@ Schema Enforcer catches this at the source. Define which properties belong in a 
 
 1. Go to Settings > Schema Enforcer
 2. Click **Add folder schema**
-3. Select a folder path (e.g. `Base items/Tasks`)
+3. Select a folder path (e.g. `Bases/Tasks`)
 4. Add properties that belong in that folder
 5. Optionally set allowed values for each property (comma-separated)
 6. Use the up/down arrows to set property order
@@ -42,7 +42,7 @@ That's it. Open any note in that folder and you'll see violations highlighted im
 
 ## Example
 
-For a Movies & TV tracking Base with a `Base items/Movies and TV` folder:
+For a Movies & TV tracking Base with a `Bases/Movies and TV` folder:
 
 | Property | Allowed Values |
 |----------|---------------|

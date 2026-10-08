@@ -106,7 +106,7 @@ export class SchemaEnforcerSettingTab extends PluginSettingTab {
 		// Folder path + delete button
 		new Setting(schemaContainer)
 			.setName("Folder path")
-			.setDesc("Vault-relative path (e.g. Base Items/Tasks)")
+			.setDesc("Vault-relative path (e.g. Bases/Tasks)")
 			.addText((text) => {
 				text.setValue(folderPath);
 				const renameFolderKey = async (newPath: string) => {
